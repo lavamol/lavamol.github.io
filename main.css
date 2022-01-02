@@ -3,3 +3,21 @@ body {
   background-color: rgb(32, 33, 36);
   color: rgb(210, 210, 210);
 }
+header {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-container div {
+  background-color: rgba(255, 255, 255, 0.185);
+  border-radius: 5px;
+  padding: 1em;
+  margin: 1em;
+}
+.grid-container div:hover {
+  cursor: pointer;
+  background-color: darkolivegreen;
+}
