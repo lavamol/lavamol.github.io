@@ -1,11 +1,13 @@
 body {
-  background-color: rgba(194, 223, 128, 0.514);
   background-color: rgb(32, 33, 36);
   color: rgb(210, 210, 210);
 }
 header {
   margin-left: 2em;
   margin-top: 2em;
+}
+section {
+  margin-left: 1em;
 }
 .grid-container {
   display: grid;
@@ -20,4 +22,8 @@ header {
 .grid-container div:hover {
   cursor: pointer;
   background-color: darkolivegreen;
+}
+a {
+  color: rgb(210, 210, 210);
+  text-decoration: none;
 }
