@@ -27,3 +27,6 @@ a {
   color: rgb(210, 210, 210);
   text-decoration: none;
 }
+#ComingSoon:hover {
+  cursor: not-allowed;
+}
